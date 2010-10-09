@@ -1,0 +1,9 @@
+Redstone Generator is a set of tools to automatically generate redstone
+circuitry for the game "Minecraft".  Currently supported is the generation
+of ripple-carry adders based upon simple repetition of a full adder:
+
+   ripplecarry.py <stages> <output>
+
+Requirements:
+
+	- The nbt library (available at http://github.com/twoolie/NBT).
